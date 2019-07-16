@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+    background-color: #fafbfc;
+    font-size: 1.1rem;
+}
+main > div{
+    margin: 0.2rem 0rem 1rem 0;
+
+}
+h2, h2 ~ p{
+    text-align: center;
+}
+h3,h3 > p{
+    margin: 0rem;  
+}
+.icons{
+    width: 1.3rem;
+} 
+
+p{
+    color: #586069;
+}
+.small{
+    font-size: 0.9rem;
+}
+a{
+    color: #0366d6;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.projects{
+    margin: 0.8rem;
+    border-radius: 1rem;
+    border: 1px solid #e1e4e8;
+    background-color: #ffffff;
+}
+.projectInfo{
+    padding: 0.5rem;
+}
+.pimage{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: 1px solid  #e1e4e8;
+
+}
+aside > div{
+    padding: 1rem;
+    background-color: white;
+    height: 100%;
+}
+#profileImage{
+    width: 50%;
+    display: block;
+    margin:1rem auto;
+    border-radius: 50%;
+}
+.repos, #articlesWritten > div{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #e1e4e8;
+    background-color: #ffffff;
+    
+}
+.repos p{
+    line-height: 1rem;
+}
+.btn{
+    border: none;
+    padding: 0.8rem;
+    color: #ffffff;
+    background-color: rgb(21, 158, 21);
+    border-radius: 0.8rem;
+}
+
+@media  screen and (min-width: 960px){
+    body{
+        font-size: 0.9rem;
+    }
+    .flex-container,#liveprojects,#repos,#articlesWritten{
+        display: flex;
+    }
+    h2, h2 ~ p{
+        text-align:left;
+        margin-left: 1rem;
+        margin-top: 0rem;
+    }
+    .small{
+        font-size: 0.7rem;
+    }
+    
+    #articlesWritten > div {
+        width: 50%;
+    }
+    #repos{
+        flex-wrap: wrap; 
+    }
+    .repos{
+        box-sizing: border-box;
+        width: 45%;
+    }
+    .projects{
+        width:auto;
+    }
+    aside{
+        width: 25%;
+        display: fixed;
+    }
+    main{
+        width: 65%;
+        padding: 2rem;
+    }
+    .projects{
+        margin: 0.2rem;
+    }
+}

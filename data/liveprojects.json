@@ -1,0 +1,18 @@
+[{
+    "name": "Alc counter",
+    "description": "A Simple Day counter for the Andela learning Community",
+    "image": "images/liveprojects/alc-counter.jpg",
+    "link":"https://godwinagedah.com.ng/alc"
+},
+{
+    "name": "ALC4.0 Rivers Mentors",
+    "description": "This Site Enables members of ALC Rivers to easily connect with their mentors",
+    "image": "images/liveprojects/alc-rivers-mentors.jpg",
+    "link":"https://godwinagedah.com.ng/alcriversmentors"
+},
+{
+    "name": "Practical ToDo List",
+    "description": "A todo list that saves your list even if you refresh or close your browser",
+    "image": "images/liveprojects/todo.jpg",
+    "link": "https://godwinagedah.com.ng"
+}]
