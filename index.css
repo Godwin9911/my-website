@@ -52,7 +52,6 @@ a:hover{
 aside > div{
     padding: 1rem;
     background-color: white;
-    height: 100%;
 }
 #profileImage{
     width: 50%;
@@ -110,6 +109,9 @@ aside > div{
     aside{
         width: 25%;
         display: fixed;
+    }
+    aside > div {
+        height: 100%;
     }
     main{
         width: 65%;
